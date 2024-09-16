@@ -1,14 +1,18 @@
-# React testing by Jest
+# React アプリケーションに単体テストを実施する
 
-this project created by [create react app](https://create-react-app.dev/)
-
-in this case, important things is testing.
-
-create-react-app is aleady setup jest testing environment.
-
-## 要件
+## 技術スタック
 
 Jest によるテストに焦点を当てるため、技術スタックは以下のようにシンプルなものにしています。
 
-- React (.jsx)
-- Jest
+- CLI: [Create React App](https://create-react-app.dev/) - テスト環境がセットアップされている状態で始められます。
+- Library: [React](https://react.dev/) - create react app のデフォルトの設定を使用し、.js を使用します。
+- Test: [Jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- API: [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
+## テストケース
+
+- [x] "hello world"が表示されているかを確認する。
+- [x] ボタンをクリックした時に正常にカウントアップがされるかを確認する。
+- [x] インプットの内容が反映されているかを確認する
+- [x] api からデータを取得し、表示されていることを確認する
+- [x] スナップショットテストを実践する
