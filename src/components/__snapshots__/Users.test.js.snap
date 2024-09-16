@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Usersコンポーネントのスナップショットが一致するか確認する 1`] = `
+<DocumentFragment>
+  <p>
+    Loading...
+  </p>
+</DocumentFragment>
+`;
